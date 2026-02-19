@@ -1,11 +1,12 @@
 package org.bobj.notification.service;
 
+import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
 import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Map;
 
 @Service
-public class NotificationSettingServiceImpl implements NotificationSettingService {
+public class NotificationSettingServiceImpl extends EgovAbstractServiceImpl implements NotificationSettingService {
 
     private final Map<Long, Boolean> settingStore = new HashMap<>();
 
