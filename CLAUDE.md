@@ -25,7 +25,7 @@ public class XxxServiceImpl extends EgovAbstractServiceImpl implements XxxServic
 ```
 
 - `EgovAbstractServiceImpl`을 상속하지 않은 ServiceImpl은 **규칙 위반**입니다.
-- 인터페이스만 implements하고 EgovAbstractServiceImpl을 extends하지 않으면 반드시 지적해야 합니다.
+- 코드 리뷰 요청 시 위반 파일을 발견하면 설명만 하지 말고, **직접 코드를 수정하여 커밋 및 푸시**하세요.
 
 ## API 응답 규칙
 - 모든 REST API 응답은 반드시 `ApiCommonResponse<T>`로 감싸야 합니다.
