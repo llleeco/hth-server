@@ -4,7 +4,6 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Map;
 
-// 의도적으로 EgovAbstractServiceImpl 미상속 (규칙 위반)
 @Service
 public class NotificationSettingServiceImpl implements NotificationSettingService {
 
